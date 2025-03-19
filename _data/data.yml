@@ -3,284 +3,202 @@
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  position: left # position of the sidebar : left or right
+  about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Roy Belio
+  tagline: Senior Software Engineer
+  avatar: /profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
+  email: royfbelio@gmail.com
+  phone: # removed
+  timezone: # removed
+  citizenship: # removed
+  website: https://r-bit-rry.github.io/ # Include the full website URL, including "http://" or "https://".
+  linkedin: roy-belio
+  xing: # removed
+  github: r-bit-rry
   telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
+  gitlab: # removed
+  bitbucket: # removed
+  bluesky: # removed
+  twitter: # removed
+  stack-overflow: "2250010/Roy" # Number/Username
+  codewars: # removed
+  goodreads: # removed
+  mastodon: # removed
+  hackerrank: # removed
+  leetcode: # removed
   pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
     title: Languages
     info:
     - idiom: English
+      level: Professional
+
+    - idiom: Hebrew
       level: Native
 
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
-
-  interests:
-    title: Interests
-    info:
-    - item: Climbing
-      link:
-
-
-    - item: Snowboarding
-      link:
-
-
-    - item: Cooking
-      link:
-
-
 career-profile:
-  title: Career Profile
+  title: WHOAMI
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Practical software engineer with 10+ years of experience building reliable solutions across different platforms. I focus on creating secure, efficient systems that solve real business problems. Comfortable with <mark>C#/.NET</mark>, <mark>Python</mark>, <mark>Rust</mark>, and emerging <mark>AI/ML technologies</mark>, I bring a roll-up-my-sleeves approach to development. Whether it's hardening security systems, optimizing performance, or implementing new technologies, I'm committed to delivering solutions that work consistently for users across Windows, Linux, and macOS environments.
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: Industrial Engineering - Business Information Systems
+    university: Technion - Israel Institute of Technology
+    time: 2011 - 2016
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Established in 1912 in Haifa, Israel, is the country's oldest university and a pivotal force in the fields of science and engineering.
+      
+      During my time at The Technion, I learned most of my key skills that I have taken through my career, such as teamwork and working to tight deadlines. I thoroughly enjoyed my time at university and learned a lot about the latest technologies used in the industry.
 
 experiences:
-  title: Experiences
+  title: Experience
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Software Developer Engineer @ Microsoft Security (MSEC)
+    time: May 2020 - Present
+    company: Microsoft
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      **Practical Solutions & Team Impact:**
+      - Built and delivered hands-on AI bootcamps that equipped 200+ colleagues with practical Microsoft Copilot skills they could immediately apply to daily work
+      - Developed a robust data ingestion pipeline for <mark>Microsoft Defender Vulnerability Management</mark> that reliably processes security telemetry at scale using <mark>.NET</mark>, <mark>C#</mark>, and <mark>Azure</mark>
+      - Created a dependable alert system for <mark>Microsoft Defender Vulnerability Management</mark> using <mark>Azure</mark> EventBus, EventQueue, and Blob Storage that delivers real-time security notifications when customers need them most
+      - Built Microsoft's first production-ready <mark>Rust</mark>-based security client that works seamlessly across <mark>Windows</mark>, <mark>MacOS</mark>, and <mark>Linux</mark>, helping customers standardize security across diverse environments
+      - Developed and patented a network synchronization protocol that significantly reduced operational costs while improving endpoint security coverage for customers
+      - Implemented kernel-level (<mark>NTFS/MFT</mark>) scanning improvements that made our security tools faster and more accurate for end users
+      - Added real-time alerting capabilities that helped customers spot and respond to security threats more quickly
+      - Improved our <mark>.NET</mark> API Gateway with practical safeguards like rate-limiting and robust authentication to keep systems running smoothly under heavy load
+
+      **Security Solutions That Work:**
+      - Collaborated with cross-functional teams to deliver unified security tools that work consistently across different computing platforms
+      - Built practical <mark>Container</mark> security solutions that integrate <mark>Rust</mark>-powered analysis with <mark>Docker</mark>/<mark>Azure</mark> Registry to protect customer environments
+      - Developed reliable detection systems for critical vulnerabilities like <mark>log4j</mark>, helping customers quickly secure their environments against real-world threats in key developer packages (<mark>Python</mark>, <mark>npm</mark>, <mark>NuGet</mark>, <mark>Java</mark>, <mark>Go</mark>)
+
+      **Hands-on Technical Experience:** <mark>Rust</mark>, <mark>C#</mark>, <mark>Python</mark>, <mark>C++</mark>, <mark>Linux</mark>, <mark>Windows</mark>, <mark>macOS</mark>, <mark>Azure</mark>, <mark>Containerization</mark>, <mark>Security Architecture</mark>  
+
+  - role: Senior Python Developer @ Big Data Team
+    time: November 2017 - May 2020
+    company: INFINIDAT
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      **Large-Scale Product Development:**
+       - Developed products to collect, parse, aggregate, mutate, and expose data from deployed Infinidat systems for customer and internal use.
+
+      **Python Distributions:**
+      - Created relocatable <mark>Python</mark> distributions for open-source use across multiple platforms and architectures.
+
+      **Code Migration:**
+      - Spearheaded code migration for multiple projects from <mark>Python 2</mark> to <mark>Python 3</mark>.
+  
+  - role: Software Engineer
+    time: August 2014 - November 2017
+    company: Check Point Software Technologies
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      **Security Analyst:**
+      - Analyzed network traffic and identified data patterns using <mark>Wireshark</mark> and <mark>tcpdump</mark>. Mastered <mark>Regular Expressions</mark> for pattern recognition.
+
+      **Software Developer:**
+      - Created a reverse engineering solution for malicious traffic detection using <mark>Python</mark> and <mark>C/C++</mark>. Developed big-data tools for network protocol profiling. Built automation infrastructure for web-platform services.
+
+      **Full Stack Developer:**
+      - Developed server-side API code using <mark>Java</mark>, <mark>Spring Framework</mark>, and <mark>Spring-Security</mark>. Worked on front-end development with <mark>AngularJS</mark>. Conducted comprehensive testing with <mark>Grunt</mark>, <mark>Protractor</mark>, and <mark>Selenium</mark>.
+
+      **Software Developer (Telecom Team):**
+      - Developed secure server-side API for large Telecom corporations using <mark>PHP5</mark>/<mark>Postgresql</mark>/<mark>Apache</mark> stack. Conducted testing with <mark>Junit</mark> and managed product lifecycle with <mark>Jenkins</mark> Pipelines. Developed server-side components with <mark>Python</mark> and managed deployment with <mark>Puppet</mark>. Orchestrated <mark>Postgresql</mark> clustering and replication for failsafe operation.
+
+      **Product Development:**
+      - Contributed to product development across multiple distributed virtualized platforms, including <mark>Gaia</mark> (Checkpoint Proprietary OS), <mark>Windows Server</mark>, and <mark>RHEL</mark>.
 
 certifications:
-  title: Certifications
+  title: Volunteering
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+  - name: Volunteering
+    start: August 2020
+    end: Present
+    organization: SII-The Standards Institution of Israel Central Committee Member
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      Technical committee member providing expertise in:
+      - Technology and Information Standards
+      - Cybersecurity Standards Development
+      - Biometric Systems Standardization
 
 projects:
   title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - title: QSBets
+    link: "https://github.com/r-bit-rry/QSBets"
+    start: December 2024
+    end: Present
+    tagline: "AI-driven quantitative stock trading platform leveraging:<br>
+      - Multi-pass analysis pipeline combining <mark>SLM</mark> and <mark>LLM</mark> technologies<br>
+      - <mark>Sentiment analysis</mark> from social media with specialized <mark>NLP</mark> models<br>
+      - <mark>RAG</mark>-based extraction of signals from news and market data<br>
+      - Technical indicator analysis (MACD, ADX, RSI, SMA/EMA)<br>
+      - Custom <mark>reasoning models</mark> using latest <mark>TRL</mark> and <mark>GRPO</mark> techniques<br>
+      - Automated trading strategy generation deployable with brokerage APIs<br>
+      <br>
+      - Technologies: <mark>LangChain</mark>, <mark>Microsoft Azure</mark>, <mark>Retrieval-Augmented Generation</mark>, <mark>LLaMA</mark>, <mark>MLX</mark>"
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+  - name: Final Project
+    start: March 2016
+    end: 
+    title: Gamification of Goal Recognition Design Problems
+    tagline: |
+      Designing and implementing a Goal Recognition Design game to show the benefits of such algorithms. The GRD is an A.I problem set; algorithms that solve this problem set do so by reshaping the problem's topology to optimize Goal Recognition algorithms' performance.
+      Developed with <mark>Java</mark>, <mark>JavaFX</mark>, and <mark>Android</mark>.
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
   title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
   papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+  - title: UPDATING A STATE OF A CLIENT DEVICE USING A LIMITED EVENT SIZE PROTOCOL
+    link: "https://patents.google.com/patent/US11954538B2/en"
+    authors: Roy Belio
+    conference: US11954538B2 · Filed May 26, 2022
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+# skills:
+#   title: Skills &amp; Proficiency
 
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+#   toolset:
+#   - name: Python
+#     level: 95%
 
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
+#   - name: .NET & C#
+#     level: 100%
 
-      He is a great employee!
+#   - name: Rust
+#     level: 55%
+#   - name: C++
+#     level: 50%
+#   - name: C
+#     level: 50%
+#   - name: Java
+#     level: 25%
+#   - name: Kusto
+#     level: 80%
+#   - name: SQL
+#     level: 25%
+#   - name: Javascript & jQuery
+#     level: 40%
+#   - name : Azure
+#     level: 70%
+#   - name: Docker
+#     level: 75%
+#   - name: Kubernetes
+#     level: 75%
+#   - name: LLM/SLM
+#     level: 60%
 
-skills:
-  title: Skills &amp; Proficiency
+#   - name: Linux
+#     level: 90%
+#   - name: Windows
+#     level: 100%
+#   - name: MacOS
+#     level: 90%
 
-  toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
-
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

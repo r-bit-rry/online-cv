@@ -46,7 +46,7 @@ sidebar:
 career-profile:
   title: WHOAMI
   summary: |
-    Practical software engineer with 10+ years of experience building reliable solutions across different platforms. I focus on creating secure, efficient systems that solve real business problems. Comfortable with <mark>C#/.NET</mark>, <mark>Python</mark>, <mark>Rust</mark>, and emerging <mark>AI/ML technologies</mark>, I bring a roll-up-my-sleeves approach to development. Whether it's hardening security systems, optimizing performance, or implementing new technologies, I'm committed to delivering solutions that work consistently for users across Windows, Linux, and macOS environments.
+    Versatile engineer with 10+ years building secure, efficient systems across platforms. Skilled in <mark>C#/.NET</mark>, <mark>Python</mark>, <mark>Rust</mark>, and <mark>AI/ML technologies</mark>, I apply a practical approach to hardening security, optimizing performance, and implementing new technologies—delivering consistent solutions across Windows, Linux, and macOS environments.
 
 education:
   title: Education
@@ -55,9 +55,7 @@ education:
     university: Technion - Israel Institute of Technology
     time: 2011 - 2016
     details: |
-      Established in 1912 in Haifa, Israel, is the country's oldest university and a pivotal force in the fields of science and engineering.
-      
-      During my time at The Technion, I learned most of my key skills that I have taken through my career, such as teamwork and working to tight deadlines. I thoroughly enjoyed my time at university and learned a lot about the latest technologies used in the industry.
+      Finished with a GPA of 84, specializing in Retrieval systems, Machine Learning, Data Mining and Natural Language Processing. My finals project focused on the design of a game to demonstrate the benefits of Goal Recognition Design algorithms.
 
 experiences:
   title: Experience
@@ -67,19 +65,18 @@ experiences:
     company: Microsoft
     details: |
       **Practical Solutions & Team Impact:**
-      - Built and delivered hands-on AI bootcamps that equipped 200+ colleagues with practical Microsoft Copilot skills they could immediately apply to daily work
-      - Developed a robust data ingestion pipeline for <mark>Microsoft Defender Vulnerability Management</mark> that reliably processes security telemetry at scale using <mark>.NET</mark>, <mark>C#</mark>, and <mark>Azure</mark>
-      - Created a dependable alert system for <mark>Microsoft Defender Vulnerability Management</mark> using <mark>Azure</mark> EventBus, EventQueue, and Blob Storage that delivers real-time security notifications when customers need them most
-      - Built Microsoft's first production-ready <mark>Rust</mark>-based security client that works seamlessly across <mark>Windows</mark>, <mark>MacOS</mark>, and <mark>Linux</mark>, helping customers standardize security across diverse environments
-      - Developed and patented a network synchronization protocol that significantly reduced operational costs while improving endpoint security coverage for customers
-      - Implemented kernel-level (<mark>NTFS/MFT</mark>) scanning improvements that made our security tools faster and more accurate for end users
-      - Added real-time alerting capabilities that helped customers spot and respond to security threats more quickly
-      - Improved our <mark>.NET</mark> API Gateway with practical safeguards like rate-limiting and robust authentication to keep systems running smoothly under heavy load
+      - Built and delivered AI bootcamps equipping 200+ colleagues with immediate Microsoft Copilot implementation skills
+      - Architected <mark>BCDR</mark> for <mark>Microsoft Defender Vulnerability Management</mark>, ensuring enterprise-grade reliability
+      - Built scalable data ingestion pipeline processing security telemetry using <mark>.NET</mark>, <mark>C#</mark>, and <mark>Azure</mark>
+      - Engineered real-time alerting system with <mark>Azure</mark> EventBus, EventQueue, and Blob Storage for critical security notifications
+      - Developed Microsoft's first production <mark>Rust</mark>-based security client with seamless <mark>Windows</mark>, <mark>MacOS</mark>, and <mark>Linux</mark> integration
+      - Patented network synchronization protocol reducing operational costs while improving endpoint security coverage
+      - Optimized kernel-level (<mark>NTFS/MFT</mark>) scanning, significantly improving security tool performance and accuracy
 
       **Security Solutions That Work:**
-      - Collaborated with cross-functional teams to deliver unified security tools that work consistently across different computing platforms
-      - Built practical <mark>Container</mark> security solutions that integrate <mark>Rust</mark>-powered analysis with <mark>Docker</mark>/<mark>Azure</mark> Registry to protect customer environments
-      - Developed reliable detection systems for critical vulnerabilities like <mark>log4j</mark>, helping customers quickly secure their environments against real-world threats in key developer packages (<mark>Python</mark>, <mark>npm</mark>, <mark>NuGet</mark>, <mark>Java</mark>, <mark>Go</mark>)
+      - Unified cross-platform security tools ensuring consistent protection across diverse computing environments
+      - Integrated <mark>Rust</mark>-powered <mark>Container</mark> security analysis with <mark>Docker</mark>/<mark>Azure</mark> Registry for comprehensive protection
+      - Implemented rapid detection systems for critical vulnerabilities (<mark>log4j</mark>) across key developer packages (<mark>Python</mark>, <mark>npm</mark>, <mark>NuGet</mark>, <mark>Java</mark>, <mark>Go</mark>)
 
       **Hands-on Technical Experience:** <mark>Rust</mark>, <mark>C#</mark>, <mark>Python</mark>, <mark>C++</mark>, <mark>Linux</mark>, <mark>Windows</mark>, <mark>macOS</mark>, <mark>Azure</mark>, <mark>Containerization</mark>, <mark>Security Architecture</mark>  
 
@@ -87,33 +84,13 @@ experiences:
     time: November 2017 - May 2020
     company: INFINIDAT
     details: |
-      **Large-Scale Product Development:**
-       - Developed products to collect, parse, aggregate, mutate, and expose data from deployed Infinidat systems for customer and internal use.
-
-      **Python Distributions:**
-      - Created relocatable <mark>Python</mark> distributions for open-source use across multiple platforms and architectures.
-
-      **Code Migration:**
-      - Spearheaded code migration for multiple projects from <mark>Python 2</mark> to <mark>Python 3</mark>.
+      Engineered scalable data systems for enterprise storage deployments while creating cross-platform Python distributions and successfully leading Python 2 to 3 migrations across complex codebases.
   
   - role: Software Engineer
     time: August 2014 - November 2017
     company: Check Point Software Technologies
     details: |
-      **Security Analyst:**
-      - Analyzed network traffic and identified data patterns using <mark>Wireshark</mark> and <mark>tcpdump</mark>. Mastered <mark>Regular Expressions</mark> for pattern recognition.
-
-      **Software Developer:**
-      - Created a reverse engineering solution for malicious traffic detection using <mark>Python</mark> and <mark>C/C++</mark>. Developed big-data tools for network protocol profiling. Built automation infrastructure for web-platform services.
-
-      **Full Stack Developer:**
-      - Developed server-side API code using <mark>Java</mark>, <mark>Spring Framework</mark>, and <mark>Spring-Security</mark>. Worked on front-end development with <mark>AngularJS</mark>. Conducted comprehensive testing with <mark>Grunt</mark>, <mark>Protractor</mark>, and <mark>Selenium</mark>.
-
-      **Software Developer (Telecom Team):**
-      - Developed secure server-side API for large Telecom corporations using <mark>PHP5</mark>/<mark>Postgresql</mark>/<mark>Apache</mark> stack. Conducted testing with <mark>Junit</mark> and managed product lifecycle with <mark>Jenkins</mark> Pipelines. Developed server-side components with <mark>Python</mark> and managed deployment with <mark>Puppet</mark>. Orchestrated <mark>Postgresql</mark> clustering and replication for failsafe operation.
-
-      **Product Development:**
-      - Contributed to product development across multiple distributed virtualized platforms, including <mark>Gaia</mark> (Checkpoint Proprietary OS), <mark>Windows Server</mark>, and <mark>RHEL</mark>.
+      Conducted security analysis and reverse engineering using Wireshark/tcpdump, developed malware detection tools (Python/C++), and built secure APIs (Java/Spring, PHP/PostgreSQL) while managing infrastructure (Jenkins/Puppet) across Checkpoint's Gaia OS, Windows Server, and RHEL.
 
 certifications:
   title: Volunteering
@@ -133,25 +110,15 @@ projects:
   assignments:
   - title: QSBets
     link: "https://github.com/r-bit-rry/QSBets"
-    start: December 2024
-    end: Present
     tagline: "AI-driven quantitative stock trading platform leveraging:<br>
-      - Multi-pass analysis pipeline combining <mark>SLM</mark> and <mark>LLM</mark> technologies<br>
-      - <mark>Sentiment analysis</mark> from social media with specialized <mark>NLP</mark> models<br>
-      - <mark>RAG</mark>-based extraction of signals from news and market data<br>
-      - Technical indicator analysis (MACD, ADX, RSI, SMA/EMA)<br>
-      - Custom <mark>reasoning models</mark> using latest <mark>TRL</mark> and <mark>GRPO</mark> techniques<br>
-      - Automated trading strategy generation deployable with brokerage APIs<br>
-      <br>
+      - Multi-pass analysis pipeline combining <mark>SLM</mark> and <mark>LLM</mark> technologies with <mark>Sentiment analysis</mark> from social media and <mark>RAG</mark>-based extraction from market data<br>
+      - Custom <mark>reasoning models</mark> using <mark>TRL</mark>/<mark>GRPO</mark> techniques and technical indicators for automated trading strategy generation<br>
       - Technologies: <mark>LangChain</mark>, <mark>Microsoft Azure</mark>, <mark>Retrieval-Augmented Generation</mark>, <mark>LLaMA</mark>, <mark>MLX</mark>"
 
-  - name: Final Project
-    start: March 2016
-    end: 
-    title: Gamification of Goal Recognition Design Problems
+  - title: Github
+    link: "https://github.com/r-bit-rry"
     tagline: |
-      Designing and implementing a Goal Recognition Design game to show the benefits of such algorithms. The GRD is an A.I problem set; algorithms that solve this problem set do so by reshaping the problem's topology to optimize Goal Recognition algorithms' performance.
-      Developed with <mark>Java</mark>, <mark>JavaFX</mark>, and <mark>Android</mark>.
+      Gamification of Goal Recognition Design Problems (<mark>Java</mark>, <mark>JavaFX</mark>, and <mark>Android</mark>), Mishbezet(<mark>TS</mark>), TAM(<mark>.NET</mark>/<mark>C#</mark>) and more on my github.
 
 
 publications:
